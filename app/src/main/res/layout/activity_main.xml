@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.a1.tvwindowdemo170405.MainActivity">
+<Button
+    android:id="@+id/btn_create"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="创建"
+    />
+<Button
+    android:id="@+id/btn_add"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="添加"
+    />
+<Button
+    android:id="@+id/btn_update"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="更新"
+    />
+<Button
+    android:id="@+id/btn_removelayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="移除"
+    />
+    <TextView
+        android:id="@+id/tvshowtime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="显示时间。。。。"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/et_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入内容...."
+        />
+
+</LinearLayout>
